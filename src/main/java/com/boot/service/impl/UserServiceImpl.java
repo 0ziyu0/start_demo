@@ -14,9 +14,6 @@ public class UserServiceImpl implements IUserService {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 	
-/*	@Autowired
-	private UserMapper userMapper;*/
-	
 	@Override
 	public void add(String name, Integer age) {
 		
